@@ -65,6 +65,7 @@ var carousel = new Vue({
                 this.counterSlides--;
             }
         }
+        // }
         // autoPlay() {
         //     setInterval(() => {
         //         
