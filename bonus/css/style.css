@@ -7,15 +7,16 @@
 /* Container */
 .container {
     display: flex;
-    align-items: center;
-    width: 70%;
+    width: 45%;
     margin: 0 auto;
     height: 100vh;
+    padding: 150px 0;
 }
 
 .container_carousel {
     width: 100%;
     display: flex;
+    flex-direction: column;
     /* debug */
     height: 500px;
 }
@@ -23,17 +24,24 @@
 .main_picture {
     height: 100%;
     position: relative;
-    width: 80%;
 }
 
 .text {
-    text-align: end;
     position: absolute;
     bottom: 30px;
-    right: 20px;
+    left: 20px;
     color: white;
     font-size: 22px;
     padding: 0 10px;
+}
+
+.text h3 {
+    font-size: 50px;
+}
+
+.text p {
+    font-size: 25px;
+    color: #d7d7d7;
 }
 
 .picture {
@@ -49,8 +57,9 @@
 }
 
 .thumbs {
-    height: calc(100% / 5);
-    width: 20%;
+    display: flex;
+    height: auto;
+    width: 100%;
     position: relative;
 }
 
@@ -58,6 +67,8 @@
     height: 100%;
     width: 100%;
     opacity: 0.5;
+    box-shadow: 3px 5px 10px 3px;
+    margin: 10px;
 }
 
 .prev, .next {
@@ -70,16 +81,17 @@
     border-radius: 100%;
     z-index: 10;
     position: absolute;
-    left: calc(255px / 2);
     cursor: pointer;
+    transform: rotate(-90deg);
+    top: 50%;
 }
 
 .prev {
-    top: 10px;
+    left: 20px;
 }
 
 .next {
-    top: 465px;
+    left: 810px;
 }
 
 /* ACTIVE */

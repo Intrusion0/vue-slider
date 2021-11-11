@@ -14,7 +14,7 @@
         <div class="container_carousel">
             <div class="main_picture">
                 <div class="picture active">
-                    <img :src="slides[counterSlides].image" :alt="slides[counterSlides].title">
+                    <img :src="slides[counterSlides].gif" :alt="slides[counterSlides].title">
                     <div class="text">
                         <h3>{{ slides[counterSlides].title }}</h3>
                         <p>{{ slides[counterSlides].text }}</p>
@@ -24,7 +24,7 @@
 
             <div class="thumbs">
                 <div v-for="(slide, index) in slides" class="thumb" :class="index === counterSlides ? 'active' : '' " :key="index">
-                    <img :src="slide.image" :alt="slide.title">
+                    <img :src="slide.gif" :alt="slide.title">
                 </div>
                 <div @click="prevThumb" class="prev">
                     <i class="fas fa-chevron-up"></i>

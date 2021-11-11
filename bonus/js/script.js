@@ -23,28 +23,28 @@ var carousel = new Vue({
         counterSlides: 0,
         slides: [
             {
-                image: 'img/bmw-01.jpg',
-                title: 'Bmw m4',
+                gif: 'img/01.gif',
+                title: 'Call of Duty',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.'
             },
             {
-                image: 'img/bmw-02.jpg',
-                title: 'Bmw m4 - Sport',
+                gif: 'img/02.gif',
+                title: 'Fifa 22',
                 text: 'Lorem ipsum.'
             },
             {
-                image: 'img/bmw-03.jpg',
-                title: 'Bmw m4 Power - orange',
+                gif: 'img/03.gif',
+                title: 'God Of War',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.'
             },
             {
-                image: 'img/bmw-04.jpg',
-                title: 'Bmw m4 - motore',
+                gif: 'img/04.gif',
+                title: 'Forza Horizon 5',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam.'
             },
             {
-                image: 'img/bmw-05.jpg',
-                title: 'Bmw m4 - interni',
+                gif: 'img/05.gif',
+                title: 'Battlefield',
                 text: 'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam.'
             }
         ]
