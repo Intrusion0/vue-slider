@@ -20,6 +20,7 @@
 var carousel = new Vue({
     el: '#myCarousel',
     data: {
+        timerDelay: 3000,
         counterSlides: 0,
         slides: [
             {
@@ -64,5 +65,11 @@ var carousel = new Vue({
                 this.counterSlides--;
             }
         }
+        // autoPlay() {
+        //     setInterval(() => {
+        //         
+        //         }
+        //     })
+        // }
     }
 });
