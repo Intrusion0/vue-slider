@@ -63,7 +63,8 @@
 .prev, .next {
     height: 25px;
     text-align: center;
-    background-color: lightslategray;
+    background-color: #fff;
+    border: 1px solid black;
     width: 25px;
     line-height: 25px;
     border-radius: 100%;
@@ -84,7 +85,7 @@
 /* ACTIVE */
 .active {
     display: block;
-    border: 2px solid lightgray;
+    border: 2px solid black;
     opacity: 1;
 }
 
