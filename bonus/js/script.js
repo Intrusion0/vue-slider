@@ -64,13 +64,14 @@ var carousel = new Vue({
             } else {
                 this.counterSlides--;
             }
+        },
+        autoPlay() {
+            setInterval(() => {
+                this.nextThumb();
+            }, 3000);
         }
-        // }
-        // autoPlay() {
-        //     setInterval(() => {
-        //         
-        //         }
-        //     })
-        // }
+    },
+    mounted: function() {
+        this.autoPlay()     
     }
 });
